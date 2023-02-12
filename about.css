@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(66, 63, 63);
+    color: #ffffff;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 3%;
+    padding-right: 1.5%;
+    padding-bottom: 5px;
+    background-color: rgb(0, 0, 0);
+}
+
+.logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span {
+    color: red;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 19px;
+}
+
+nav ul li a:hover {
+    color: red;
+    transition: .4s;
+}
+
+.about {
+    width: 100%;
+    padding: 100px 0px;
+    background-image: url(../Act-WST/img-vids/bg-about.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.about img {
+    height: auto;
+    width: 430px;
+    filter: drop-shadow(10px 10px 5px #ff0000);
+}
+
+.about-text {
+    width: 550px;
+}
+
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2 {
+    color: white;
+    filter: drop-shadow(5px 5px 0px #ff0000);
+    font-size: 75px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.about-text p {
+    background-color: rgba(5, 5, 5, 0.582);
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-size: 15px;
+    text-align: justify;
+    margin-bottom: 40px;
+    padding: 20px;
+}
